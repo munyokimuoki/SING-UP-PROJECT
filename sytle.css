@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.container{
+    border-top: 4px solid #04aa60;
+    border-right:4px solid #04aa60 ;
+    border-bottom:50px solid #04aa60 ;
+    border-left:4px solid #04aa60 ;
+    height: 540px;
+    width: 380px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #04aa60  ;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+p{
+    margin-bottom: 4px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=password],input[type=email]{
+    margin: 8px 0 5px 0;
+    font-size: 13px;
+    padding-left: 10px;
+    width: 330px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #04aa60 ;
+}
+
+input:hover{
+    border: 2px solid #04aa60 ;
+}
+
+label{
+    font-size: 16px;
+}
+button{
+    margin: 10px 0;
+    width: 342px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #04aa60 ;
+}
+
+button:hover{
+    background-color: #04aa60 ;
+}
+
+.text.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.linked a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.linked a :hover{
+    font-weight: 800;
+    color: black;
+}
